@@ -1,4 +1,12 @@
-# Ключевые DAX-меры — RevOps Activation & Recovery
+GitHub не поддерживает подсветку синтаксиса для DAX (язык Power BI).  
+Код показан как есть — он полностью рабочий и читаемый.  
+Для цветной подсветки открывайте в Power BI Desktop или VS Code с расширением DAX.
+
+GitHub does not support syntax highlighting for DAX (Power BI language).  
+The code is shown as is — it is fully functional and readable.  
+For color highlighting, open it in Power BI Desktop or VS Code with the DAX extension.
+
+# Ключевые / Key DAX-меры — RevOps Activation & Recovery
 
 ## 1. Activation Rate
 ```dax
@@ -50,3 +58,4 @@ VAR cac_base = [CAC at Risk(Baseline)]
 RETURN
 
     cac_base * rr
+
