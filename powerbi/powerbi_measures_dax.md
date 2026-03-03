@@ -12,19 +12,23 @@ VAR activated =
 RETURN
     COALESCE(DIVIDE(activated, total), 0)
 
+## 2. Avg Delay (hrs)
 
 Avg Delay (hrs) = 
 AVERAGE(onboarding_user_view[delay_hours])
 
+## 3. Avg Delay (hrs, Per User)
 Avg Delay (hrs, Per User) = 
 DIVIDE(
     SUM(onboarding_user_view[delay_hours]),
     DISTINCTCOUNT(onboarding_user_view[user_id])
 )
 
+## 4. Potential MRR Exposure (>48h) 
 Potential MRR Exposure (>48h) = 
 [Avg Paid MRR (Activated)] * [Delayed Users >48h (Not Activated)]
 
+## 5. Recovery Rate (What-If) 
 Recovery Rate (What-If) = 
 VAR X = SELECTEDVALUE('Reduce onboarding delay by X hours'[Reduce onboarding delay by X hours], 0)
 RETURN
@@ -35,11 +39,14 @@ RETURN
         0.25
     )
 
+## 6. Recovered MRR (What-If)
 Recovered MRR (What-If) = 
 [MRR at Risk (Proxy)] * [Recovery Rate (What-If)]
 
+## 7. CAC Saved (What-If) 
 CAC Saved (What-If) = 
 VAR rr = [Recovery Rate (What-If)]
 VAR cac_base = [CAC at Risk(Baseline)]
 RETURN
+
     cac_base * rr
