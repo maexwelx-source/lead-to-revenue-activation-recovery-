@@ -1,6 +1,6 @@
 # Lead-to-Revenue Activation Recovery System
 
-A practical RevOps system designed to detect delayed activations, quantify revenue/CAC exposure, and trigger automated intervention workflows.
+End-to-end RevOps system combining data analysis, BI, and automation to recover lost revenue from delayed user activation.
 
 ---
 
