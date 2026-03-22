@@ -111,7 +111,8 @@ This approach is used because:
 
 ## Automation Workflow
 
-![Automation Workflow](automation/make_workflow.png)
+<img width="962" height="651" alt="image" src="https://github.com/user-attachments/assets/0edeca17-a593-403d-98a8-7f0c98d5aa2a" />
+
 
 The automation layer simulates a real RevOps system:
 
