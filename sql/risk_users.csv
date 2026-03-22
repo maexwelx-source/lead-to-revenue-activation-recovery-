@@ -1,0 +1,11 @@
+user_id;acquisition_channel;CAC_value;MRR;signup_date;activated_date;delay_hours;activation_status
+U0001;Outbound;199;435;04.12.2025 10:01;2025-12-07 22:11:22.153049;84.17;activated
+U0002;Partner;56;0;12.02.2026 20:02;;;not_activated
+U0003;Partner;51;0;14.12.2025 13:45;;;not_activated
+U0004;Organic;0;0;03.02.2026 20:21;;;not_activated
+U0005;Outbound;197;243;06.01.2026 10:22;2026-01-07 11:55:11.202773;25.55;activated
+U0006;Content;61;1840;08.02.2026 19:05;2026-02-09 14:36:18.921927;19.52;activated
+U0007;Outbound;80;0;12.12.2025 13:45;2025-12-16 09:30:27.309154;91.76;activated
+U0008;Organic;0;0;25.01.2026 10:24;;;not_activated
+U0009;Partner;93;0;09.01.2026 13:42;;;not_activated
+U0010;Organic;0;319;17.12.2025 14:10;2025-12-23 18:43:19.198371;148.56;activated
